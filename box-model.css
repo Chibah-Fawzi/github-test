@@ -1,0 +1,22 @@
+p {
+    /* Il donne la taille dont l'élement a besoin */
+    width: 400px;
+    background-color: red;
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px; */
+
+    padding: 10px 20px;
+
+    /* Alligne l'élement au centre en lui donnant la même distance à gauche et à droite */
+    margin: auto;
+    border: 10px solid black;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 50vw;
+}

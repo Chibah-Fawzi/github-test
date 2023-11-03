@@ -1,0 +1,48 @@
+/* h1 {
+    color: red;
+} */
+
+/* On séléctionne le tag body du html */
+body {
+    /* Change le type de la police */
+    font-family: 'Montserrat', sans-serif;
+
+    /* Ajouter un arriére de couleur unie */
+    /* background-color: #404040; */
+
+    /* Ajouter un arriére plan d'une image */
+    background-image: url(bg.jpg);
+
+    /* Change la taille de l'arriére plan */
+    background-size: cover;
+}
+
+
+/* On séléctionne la classe "titre" avec le préfixe "." */
+.titre {
+    /* Couleur */
+    color: green;
+    /* Décoration du texte : souligné */
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+#mini-titre {
+    font-size: 10px;
+    background-color: blue;
+    font-weight: 900;
+}
+
+sub {
+    background-color: red;
+}
+
+sup {
+    color: aqua;
+    text-transform: uppercase;
+}
+
+#content {
+    background-color: white;
+    width: 200px;
+}

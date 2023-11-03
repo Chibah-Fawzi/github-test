@@ -1,0 +1,44 @@
+/* On séléctionne le tag body (qui est le plus grand contenaire) et on lui ajoue un arriére plan de couleur et on alligne tout ses enfants au centre */
+body {
+    background-color: #fefae0;
+    text-align: center;
+}
+
+/* On séléctionne les images qui sont dans la balise main */
+main img {
+
+    /* TAILLE */
+    width: 1200px;
+    /* BORDURE: TAILLE / STYLE / COULEUR */
+    border: 20px solid black;
+}
+
+
+.horraire h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    background-color: aquamarine;
+    border: none;
+    width: 200px;
+    height: 40px;
+    transition: all 0.6s;
+}
+
+
+/* PSEUDO CLASSE  */
+button:hover {
+    background-color: #404040;
+    color: white;
+}
+
+button:focus {
+    background-color: #404040;
+    color: white;
+}
