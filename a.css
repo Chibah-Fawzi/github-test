@@ -1,4 +1,16 @@
-  body {
-      background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_24_102123_DSC_0374_013728528d.jpg);
-      background-size: cover;
-  }
+:root {
+  --couleur-principale: red;
+}
+
+h1 {
+  color: var(--couleur-principale);
+}
+
+
+p {
+  color: var(--couleur-principale);
+}
+
+div {
+  color: var(--couleur-principale);
+}
