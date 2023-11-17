@@ -1,0 +1,24 @@
+/* Quand l'écran a une taille max de 600px (600px et en bas) change moi ces élements HTML */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: brown;
+    }
+
+    #cont {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+/* Quand l'écran a une taille min de 1000px (600px et en bas) change moi ces élements HTML */
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: bisque;
+    }
+
+    #cont {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    }
+}
+
+/* Entre deux tailles d'écrans */
+@media (min-width:400px) and (max-width:900px) {}
